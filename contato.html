@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Heavy Metal - Contato</title>
+    <title>Contato - Comunidade Headbanger</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Fale Conosco</h1>
+      <h1>Una-se ao Caos</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,53 +20,54 @@
 
     <main>
       <section>
-        <h2>Mande sua mensagem</h2>
-        <p>Compartilhe sua banda de Metal favorita conosco!</p>
+        <h2>Mande o seu Riff</h2>
+        <p>
+          Tem alguma banda pioneira favorita ou quer recomendar um clássico obscuro dos anos 70?
+          Preencha o formulário e faça parte da comunidade.
+        </p>
 
-        <form>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+        <form action="#" method="GET">
+          <label for="nome">Nome do Headbanger:</label>
+          <input type="text" id="nome" name="nome" required placeholder="Seu nome ou apelido" />
 
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" />
+          <label for="email">E-mail para contato:</label>
+          <input type="email" id="email" name="email" required placeholder="seuemail@rock.com" />
 
-          <label for="assunto">Assunto:</label>
+          <label for="assunto">Assunto do Grito:</label>
           <input
             type="text"
             id="assunto"
             name="assunto"
             required
-            placeholder="Ex: Recomendação de banda"
+            placeholder="Ex: Recomendação de banda, Crítica, etc."
           />
 
-          <label for="categoria">Categoria Favorita:</label>
+          <label for="categoria">Qual vertente faz seu sangue ferver?</label>
           <select id="categoria" name="categoria" required>
-            <option value="">Selecione uma opção...</option>
-            <option value="classic">Classic Metal / Heavy Tradicional</option>
-            <option value="thrash">Thrash Metal</option>
-            <option value="doom">Doom Metal</option>
-            <option value="rock">Hard Rock</option>
-            <option value="indie">Indie Rock</option>
-            <option value="nu">Nu Metal</option>
-            <option value="outros">Outros</option>
+            <option value="">Selecione uma opção da escuridão...</option>
+            <option value="classic">Classic Heavy Metal (Sabbath, Priest)</option>
+            <option value="thrash">Thrash Metal (Metallica, Slayer)</option>
+            <option value="doom">Doom Metal (Candlemass, Pentagram)</option>
+            <option value="nwbhm">NWOBHM (Iron Maiden, Saxon)</option>
+            <option value="outros">Outras vertentes extremas</option>
           </select>
 
-          <label for="comentario">Comentário:</label>
+          <label for="comentario">Sua Mensagem / Indicação de Música:</label>
           <textarea
             id="comentario"
             name="comentario"
-            rows="5"
+            rows="6"
             required
-            placeholder="Escreva sua mensagem aqui..."
+            placeholder="Mande aqui o link do YouTube daquela pedrada sonora..."
           ></textarea>
 
-          <button type="submit">Enviar Mensagem</button>
+          <button type="submit">Enviar</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <p>&copy; Todos os direitos reservados.</p>
+      <p><strong>Rock n' Roll Will Never Die.</strong> &copy; Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
